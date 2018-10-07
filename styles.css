@@ -1,0 +1,157 @@
+body {
+  padding-top: 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#333;
+}
+
+h2{
+  margin-top: 1em;
+}
+
+header{
+  margin: 1em 1em 1em 1em;
+}
+
+header p{
+  font-size:1em;
+}
+
+main{
+  margin: 1em;
+}
+
+nav a{
+  color:#b30077;
+  font-weight:bold;
+  margin:1em 0 0 0;
+  font-size: 1em;
+}
+
+#options{
+  margin: 3em 0 3em 0;
+}
+
+nav, #about, #keywords, #portfolio{
+  max-width: 760px;
+  padding: 0 2em;
+  margin: 0 auto;
+}
+
+.option a{
+  display:block;
+}
+
+#options a:hover{
+  text-decoration: none;
+  border: 2px solid #333;
+  border-radius:10px;
+}
+
+#options a h2 {
+  color:#b30077;
+  font-weight:bold;
+  margin:1em 0 0 0;
+  font-size: 1.25em;
+}
+
+#portfolio a{
+  color:#b30077;
+  font-weight:bold;
+  margin:1em 0 0 0;
+  font-size: 1em;
+}
+
+#name a{
+  color: #333;
+}
+
+p{
+  color:#333;
+}
+
+.option{
+  margin: 2em 0 2em 0;
+  padding: 0;
+}
+
+.icon{
+  width: 4em;
+  display:block;
+  margin: 1em auto;
+}
+
+.description{
+  margin:0;
+}
+
+.skills{
+  margin:0;
+  font-size:0.75em;
+}
+
+.skills:before{
+  content: "Skills: ";
+}
+
+h3{
+  font-size: 1.5em;
+}
+
+/* Portfolio Lists */
+
+#portfolio ul{
+  list-style:none;
+}
+
+#portfolio li{
+  background-color:#f1f1f1;
+  border-radius:5px;
+  padding: 1em;
+  margin: 1em 0;
+}
+
+
+
+/* Badges */
+/* TODO: Build out badges for skillsets */
+
+.badge{
+  margin: 0 0 1em 1.3em;
+}
+
+.badge-js{
+  color: #fff;
+  background-color:purple;
+}
+
+.badge-js:before {
+  content: "JavaScript";
+}
+
+.badge-rd{
+  color: #fff;
+  background-color:blue;
+}
+
+.badge-rd:before {
+  content: "Responsive Design";
+}
+
+.badge-jq{
+  color: #fff;
+  background-color:orange;
+}
+
+.badge-jq:before {
+  content: "jQuery";
+}
+
+/* Additional responsive styles */
+@media (max-width:991px) and (min-width:576px) {
+  #options{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
