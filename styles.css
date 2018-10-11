@@ -36,7 +36,23 @@ nav a{
 nav, .content-area {
   max-width: 760px;
   padding: 0 2em;
-  margin: 0 auto 4em auto;
+  margin: 0 auto 2em auto;
+}
+
+.content-area h2{
+  margin: 0 0 1em 0;
+}
+
+.content-area h3{
+  margin: 1em 0 0.5em 0;
+}
+
+.content-area h4 {
+  font-size: 1.25em;
+}
+
+.content-area img{
+  margin: 1em;
 }
 
 .option a{
