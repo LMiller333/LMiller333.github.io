@@ -40,7 +40,7 @@ nav, .content-area {
 }
 
 .content-area h2{
-  margin: 0 0 1em 0;
+  margin: 0 0 0.5em 0;
 }
 
 .content-area h3{
@@ -170,4 +170,29 @@ h3{
     margin-left: 10%;
     margin-right: 10%;
   }
+}
+
+@media (max-width: 767px){
+  #portfolio ul{
+    padding:0;
+  }
+
+  nav, .content-area{
+    padding:0 1em;
+  }
+
+  body{
+    padding-top: 20px;
+  }
+
+  header{
+    border-bottom: 1px solid black;
+  }
+
+  h1{
+    font-size:1.5em;
+    font-weight:bold;
+  }
+
+
 }
