@@ -79,6 +79,12 @@ nav, .content-area {
   font-size: 1em;
 }
 
+#portfolio .in-progress {
+    font-weight: bold;
+    margin: 1em 0 0 0;
+    font-size: 1em;
+}
+
 #name a{
   color: #333;
 }
